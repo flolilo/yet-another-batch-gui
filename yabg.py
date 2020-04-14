@@ -12,6 +12,7 @@ __version__ = "0.0.1"
 import subprocess
 import shlex
 from pathlib import Path
+import PySimpleGUI as psg
 from ruamel.yaml import YAML
 yaml = YAML()
 yaml.indent(offset=2, sequence=4)
