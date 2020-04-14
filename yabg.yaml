@@ -1,0 +1,9 @@
+binaries:
+  - /usr/bin/ffmpeg
+  - /usr/bin/ffprobe
+presets:
+  - bla\ %2
+  - asd
+  - '##1'
+settings:
+  threads: 4
