@@ -4,7 +4,7 @@ yet-another-batch-gui
 
 Seemed a nice idea at the time, but actually, using:
 
-::
+.. code:: bash
 
     printf "<DRAGNDROP>" | sed -e "s:' ':\n:g" -e "s:'::g" > FILE.txt
     cat FILE.txt | parallel -q <CMD> {}
